@@ -1,4 +1,4 @@
-# DOHD2-Data-Structure
+# DOHD-Data-Structure
 
 Deletion Oriented Hashmap Deformation (DOHD) is a custom data structure that 
 implements a queue using a Python dictionary. It is designed to manage a collection 
