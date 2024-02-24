@@ -15,11 +15,16 @@ for unexpected inputs or usage.
 
 ## Attributes:
     HashMap (dict): A dictionary that stores the objects as keys and their indices as values.
+    
     hashDeletions (int): A counter that keeps track of the number of deletions.
 
 ## Methods:
     __init__(self, keyArr): Initializes the DOHD with an array of keys.
+    
     __hashArrs(self,array): Hashes an array into a dictionary.
+    
     getIndex(self,Object): Returns the index of a given object in the original array, adjusted by the number of deletions.
+    
     queueHash(self,Object): Adds a new object to the end of the queue.
+    
     popHashMap(self): Removes the first object in the queue.
