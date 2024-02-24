@@ -13,11 +13,11 @@ controls all inputs and operations, and therefore does not include error handlin
 for unexpected inputs or usage.
 
 
- Attributes:
+## Attributes:
     HashMap (dict): A dictionary that stores the objects as keys and their indices as values.
     hashDeletions (int): A counter that keeps track of the number of deletions.
 
- Methods:
+## Methods:
     __init__(self, keyArr): Initializes the DOHD with an array of keys.
     __hashArrs(self,array): Hashes an array into a dictionary.
     getIndex(self,Object): Returns the index of a given object in the original array, adjusted by the number of deletions.
